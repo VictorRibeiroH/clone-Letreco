@@ -9,10 +9,10 @@ const keysSecondRow = ["A", "S", "D", "F", "G", "H", "J", "K", "L"];
 const keysThirdRow = ["Z", "X", "C", "V", "B", "N", "M"];
 
 const rows = 6;
-const columns = 5;
+const columns = 6;
 let currentRow = 0;
 let currentColumn = 0;
-let letreco = "EMILY";
+let letreco = "EMILLY";
 let letrecoMap = {};
 for (let index = 0; index < letreco.length; index++) {
   letrecoMap[letreco[index]] = index;
